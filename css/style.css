@@ -492,7 +492,7 @@ body {
   color: #383838;
   font-weight: 400;
   font-size: 14px;
-  font-family: "Consolas", "Arial", monospace;
+  font-family: "Arial";
   line-height: 1.725;
   text-rendering: geometricPrecision;
   -moz-osx-font-smoothing: grayscale;
@@ -1420,7 +1420,7 @@ article .content .caption {
   font-display: swap;
   font-weight: 400;
   font-size: 11.200000000000001px;
-  font-family: "Consolas", "Arial", monospace;
+  font-family: "Arial";
   line-height: 1.725;
   text-rendering: geometricPrecision;
   text-align: center;
