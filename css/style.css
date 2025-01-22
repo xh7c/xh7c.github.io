@@ -341,8 +341,11 @@ body .h2 {
   font-weight: bold;
   font-size: 2rem;
 }
-body h3 {
+body h3,
+body .h3 {
+  display: block;
   color: #383838;
+  margin-top: 0.5rem;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
@@ -620,7 +623,7 @@ body {
 }
 #header h1,
 #header .h1 {
-  margin-top: 0;
+  margin-top: -0.5rem;
   margin-bottom: 0;
   color: #383838;
   letter-spacing: 0.03em;
@@ -1086,7 +1089,7 @@ body {
   margin-right: 16px;
   min-width: 100px;
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
 }
 @media (min-width: 480px) {
   .post-list .post-item {
@@ -1132,7 +1135,7 @@ article header .postdate {
 }
 article .content h2:before {
   position: absolute;
-  top: -4px;
+  top: 0px;
   left: -2rem;
   color: #2bbc8a;
   content: ">";
