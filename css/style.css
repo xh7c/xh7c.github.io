@@ -618,11 +618,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   color: #383838;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.03em;
   font-weight: 1000;
   font-style: normal;
   font-size: 3rem;
-  line-height: 2rem;
+  line-height: 3.5rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
