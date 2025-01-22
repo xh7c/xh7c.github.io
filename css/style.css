@@ -619,7 +619,7 @@ body {
   margin-bottom: 0;
   color: #383838;
   letter-spacing: 0.03em;
-  font-weight: 1200;
+  font-weight: 2200;
   font-style: normal;
   font-size: 3rem;
   line-height: 5rem;
@@ -1283,7 +1283,7 @@ article .content .caption {
   color: #666;
   vertical-align: top;
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
 }
 #footer ul {
   margin: 0;
