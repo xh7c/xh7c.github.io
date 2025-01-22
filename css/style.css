@@ -459,6 +459,11 @@ body td {
   font-family: "MSYH";
   src: url("../lib/msyh/msyh.ttc") format("truetype");
 }
+@font-face {
+  font-style: normal;
+  font-family: "Source Han Sans";
+  src: url("../lib/source-han-sans/SourceHanSansCN-Regular.otf") format("opentype");
+}
 *,
 *:before,
 *:after {
@@ -502,7 +507,7 @@ body {
   color: #383838;
   font-weight: 400;
   font-size: 18px;
-  font-family: "MSYH";
+  font-family: "Source Han Sans";
   line-height: 1.725;
   text-rendering: geometricPrecision;
   -moz-osx-font-smoothing: grayscale;
@@ -622,7 +627,7 @@ body {
   font-weight: 1200;
   font-style: bold;
   font-size: 3rem;
-  line-height: 5rem;
+  line-height: 5.5rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -644,7 +649,7 @@ body {
 #header #nav {
   color: #2bbc8a;
   letter-spacing: 0.015em;
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
   font-size: 1.2rem;
 }
@@ -1430,7 +1435,7 @@ article .content .caption {
   font-display: swap;
   font-weight: 400;
   font-size: 14.4px;
-  font-family: "MSYH";
+  font-family: "Source Han Sans";
   line-height: 1.725;
   text-rendering: geometricPrecision;
   text-align: center;
@@ -1596,7 +1601,7 @@ pre {
   border: 1px dotted #666;
   border-radius: 4px;
   font-size: 13px;
-  font-family: "Consolas", "MSYH", monospace;
+  font-family: "Consolas", "Source Han Sans", monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
 }
@@ -1617,7 +1622,7 @@ code {
   padding: 10px 15px;
   border-radius: 4px;
   background: #fafafa;
-  font-family: "Consolas", "MSYH", monospace;
+  font-family: "Consolas", "Source Han Sans", monospace;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
