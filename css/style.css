@@ -419,7 +419,7 @@ body table {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   overflow: auto;
   display: block;
 }
@@ -428,7 +428,7 @@ body th {
   border-bottom: 1px dashed #666;
   color: #383838;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 17px;
 }
 body td {
   padding: 0 8px;
@@ -501,7 +501,7 @@ body {
   background-color: #fff;
   color: #383838;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "MSYH";
   line-height: 1.725;
   text-rendering: geometricPrecision;
@@ -592,7 +592,7 @@ body {
   }
 }
 .max-width {
-  max-width: 64rem;
+  max-width: 60rem;
 }
 @media (max-width: 480px) {
   .px3 {
@@ -621,7 +621,7 @@ body {
   letter-spacing: 0.01em;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 3rem #111 0.5 by default;
   line-height: 2rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -635,10 +635,10 @@ body {
   display: inline-block;
   float: left;
   margin-right: 20px;
-  width: 86px;
-  height: 56px;
+  width: 172px;
+  height: 112px;
   border-radius: 5px;
-  background-size: 86px 56px;
+  background-size: 172px 112px;
   background-repeat: no-repeat;
 }
 #header #nav {
@@ -685,7 +685,7 @@ body {
   #header #title {
     display: table;
     margin-right: 5rem;
-    min-height: 56px;
+    min-height: 112px;
   }
   #header #title h1 {
     display: table-cell;
@@ -715,7 +715,7 @@ body {
   }
   #header #nav li:not(:first-child) {
     padding-top: 1rem;
-    padding-left: 106px;
+    padding-left: 192px;
     font-size: 1rem;
   }
 }
@@ -1429,7 +1429,7 @@ article .content .caption {
   color: #fff;
   font-display: swap;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14.4px;
   font-family: "MSYH";
   line-height: 1.725;
   text-rendering: geometricPrecision;
