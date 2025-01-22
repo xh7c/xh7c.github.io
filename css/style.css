@@ -643,7 +643,7 @@ body {
 }
 #header #nav {
   color: #2bbc8a;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.015em;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2rem;
@@ -1283,7 +1283,7 @@ article .content .caption {
   color: #666;
   vertical-align: top;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
 }
 #footer ul {
   margin: 0;
