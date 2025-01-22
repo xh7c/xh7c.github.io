@@ -322,10 +322,10 @@ body .h1 {
   margin-top: 3rem;
   margin-bottom: 1rem;
   color: #2bbc8a;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   font-weight: 700;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 1.75em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -339,22 +339,22 @@ body .h2 {
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 body h3 {
   color: #383838;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 body h4,
 body h5,
 body h6 {
   display: inline;
   text-decoration: none;
-  color: #8c8c8c;
+  color: #383838;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 body h3,
 body h4,
@@ -619,8 +619,8 @@ body {
   margin-bottom: 0;
   color: #383838;
   letter-spacing: 0.03em;
-  font-weight: 2200;
-  font-style: normal;
+  font-weight: 1200;
+  font-style: bold;
   font-size: 3rem;
   line-height: 5rem;
   -moz-osx-font-smoothing: grayscale;
@@ -1106,8 +1106,8 @@ article header .posttitle {
   margin-top: 0;
   margin-bottom: 0;
   text-transform: none;
-  font-size: 1.5em;
-  line-height: 1.25;
+  font-size: 2.5em;
+  line-height: 2.25;
 }
 article header .meta {
   margin-top: 0;
@@ -1118,8 +1118,8 @@ article header .meta * {
   font-size: 0.85rem;
 }
 article header .author {
-  text-transform: uppercase;
-  letter-spacing: 0.01em;
+  text-transform: none;
+  letter-spacing: 0.015em;
   font-weight: 700;
 }
 article header .postdate {
@@ -1128,11 +1128,11 @@ article header .postdate {
 article .content h2:before {
   position: absolute;
   top: -4px;
-  left: -1rem;
+  left: -2rem;
   color: #2bbc8a;
-  content: "#";
+  content: ">";
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 article .content img,
 article .content video {
