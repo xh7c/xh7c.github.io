@@ -319,9 +319,9 @@
 body h1,
 body .h1 {
   display: block;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
   letter-spacing: 0.02em;
   font-weight: 700;
   font-style: normal;
@@ -339,13 +339,14 @@ body .h2 {
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 body h3,
 body .h3 {
   display: block;
   color: #383838;
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
@@ -428,14 +429,14 @@ body table {
 }
 body th {
   padding: 8px;
-  border-bottom: 1px dashed #666;
+  border: 1px solid #666;
   color: #383838;
   font-weight: bold;
   font-size: 17px;
 }
 body td {
   padding: 0 8px;
-  border-bottom: none;
+  border: 1px solid #666;
 }
 @font-face {
   font-style: normal;
@@ -466,6 +467,11 @@ body td {
   font-style: normal;
   font-family: "Source Han Sans";
   src: url("../lib/source-han-sans/SourceHanSansCN-Regular.otf") format("opentype");
+}
+@font-face {
+  font-style: normal;
+  font-family: "SimKai";
+  src: url("../lib/simkai/simkai.ttf") format("truetype");
 }
 *,
 *:before,
@@ -544,13 +550,13 @@ body {
   background-repeat: repeat-x;
 }
 .content a:hover {
-  background-image: linear-gradient(transparent, transparent 4px, #d480aa 4px, #d480aa);
+  background-image: linear-gradient(transparent, transparent 4px, rgba(220,220,50,0.9) 4px, rgba(220,220,50,0.9));
 }
 .content a.icon {
   background: none;
 }
 .content a.icon:hover {
-  color: #d480aa;
+  color: rgba(220,220,50,0.9);
 }
 .content h1 a,
 .content .h1 a,
@@ -570,7 +576,7 @@ body {
 .content h4 a:hover,
 .content h5 a:hover,
 .content h6 a:hover {
-  background-image: linear-gradient(transparent, transparent 6px, #d480aa 6px, #d480aa);
+  background-image: linear-gradient(transparent, transparent 6px, rgba(220,220,50,0.9) 6px, rgba(220,220,50,0.9));
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -581,7 +587,7 @@ body {
   text-decoration: none;
 }
 .content h6 a:hover {
-  background-image: linear-gradient(transparent, transparent 6px, #d480aa 6px, #d480aa);
+  background-image: linear-gradient(transparent, transparent 6px, rgba(220,220,50,0.9) 6px, rgba(220,220,50,0.9));
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -650,7 +656,7 @@ body {
   background-repeat: no-repeat;
 }
 #header #nav {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
   letter-spacing: 0.015em;
   font-weight: bold;
   font-style: normal;
@@ -664,10 +670,10 @@ body {
 }
 #header #nav ul a {
   margin-right: 15px;
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
 }
 #header #nav ul a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 5px, rgba(40,180,150,0.8) 5px, rgba(40,180,150,0.8));
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -676,7 +682,7 @@ body {
   display: inline-block;
   margin-right: 15px;
   border-right: 1px dotted;
-  border-color: #2bbc8a;
+  border-color: rgba(40,180,150,0.8);
   vertical-align: middle;
 }
 #header #nav ul .icon {
@@ -744,7 +750,7 @@ body {
   background: none;
 }
 #header-post a.icon:hover {
-  color: #d480aa;
+  color: rgba(220,220,50,0.9);
 }
 #header-post ol {
   list-style-type: none;
@@ -769,7 +775,7 @@ body {
   margin-left: 15px;
 }
 #header-post #menu-icon:hover {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
 }
 #header-post #menu-icon-tablet {
   float: right;
@@ -777,7 +783,7 @@ body {
   margin-left: 15px;
 }
 #header-post #menu-icon-tablet:hover {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
 }
 #header-post #top-icon-tablet {
   position: fixed;
@@ -787,17 +793,17 @@ body {
   margin-left: 15px;
 }
 #header-post #top-icon-tablet:hover {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
 }
 #header-post .active {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
 }
 #header-post #menu {
   display: none;
   margin-right: 2rem;
 }
 #header-post #nav {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
   letter-spacing: 0.01em;
   font-weight: 200;
   font-style: normal;
@@ -808,16 +814,16 @@ body {
 }
 #header-post #nav ul a {
   margin-right: 15px;
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
 }
 #header-post #nav ul a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 5px, rgba(40,180,150,0.8) 5px, rgba(40,180,150,0.8));
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
 }
 #header-post #nav ul li {
-  border-right: 1px dotted #2bbc8a;
+  border-right: 1px dotted rgba(40,180,150,0.8);
 }
 #header-post #nav ul li:last-child {
   margin-right: 0;
@@ -861,7 +867,7 @@ body {
   text-align: right;
 }
 #header-post #toc a:hover {
-  color: #d480aa;
+  color: rgba(220,220,50,0.9);
 }
 #header-post #toc .toc-level-1 > .toc-link {
   display: none;
@@ -871,7 +877,7 @@ body {
   font-size: 0.8rem;
 }
 #header-post #toc .toc-level-2:before {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
   content: "#";
 }
 #header-post #toc .toc-level-3 {
@@ -960,7 +966,7 @@ body {
   background: none;
 }
 #footer-post a.icon:hover {
-  color: #d480aa;
+  color: rgba(220,220,50,0.9);
 }
 #footer-post #nav-footer {
   padding-right: 1rem;
@@ -969,11 +975,11 @@ body {
   text-align: center;
 }
 #footer-post #nav-footer a {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
   font-size: 1em;
 }
 #footer-post #nav-footer a:hover {
-  background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
+  background-image: linear-gradient(transparent, transparent 5px, rgba(40,180,150,0.8) 5px, rgba(40,180,150,0.8));
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -1004,7 +1010,7 @@ body {
 #footer-post #actions-footer a {
   display: inline-block;
   padding-left: 1rem;
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
 }
 #footer-post #share-footer {
   padding-right: 1rem;
@@ -1041,7 +1047,7 @@ body {
   line-height: 30px;
 }
 #footer-post #toc-footer a:hover {
-  color: #d480aa;
+  color: rgba(220,220,50,0.9);
 }
 #footer-post #toc-footer .toc-level-1 > .toc-link {
   display: none;
@@ -1051,7 +1057,7 @@ body {
   font-size: 0.8rem;
 }
 #footer-post #toc-footer .toc-level-2:before {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
   content: "#";
 }
 #footer-post #toc-footer .toc-level-3 {
@@ -1111,11 +1117,11 @@ body {
   display: inline;
 }
 article header .posttitle {
-  margin-top: 0;
+  margin-top: -1rem;
   margin-bottom: 0;
   text-transform: none;
   font-size: 2.5em;
-  line-height: 2.25;
+  line-height: 2;
 }
 article header .meta {
   margin-top: 0;
@@ -1123,7 +1129,7 @@ article header .meta {
 }
 article header .meta * {
   color: #8c8c8c;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 article header .author {
   text-transform: none;
@@ -1137,7 +1143,7 @@ article .content h2:before {
   position: absolute;
   top: 0px;
   left: -2rem;
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
   content: ">";
   font-weight: bold;
   font-size: 2rem;
@@ -1169,7 +1175,7 @@ article .content blockquote {
   margin: 1rem 10px;
   padding: 0.5em 10px;
   background: inherit;
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
   quotes: "\201C" "\201D" "\2018" "\2019";
   font-weight: bold;
 }
@@ -1178,7 +1184,7 @@ article .content blockquote p {
 }
 article .content blockquote:before {
   margin-right: 0.25em;
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
   content: "\201C";
   vertical-align: -0.4em;
   font-size: 2em;
@@ -1228,7 +1234,7 @@ article .content .caption {
   line-height: 1.25;
 }
 .article-tag .tag-link {
-  background-image: linear-gradient(transparent, transparent 10px, #d480aa 10px, #d480aa);
+  background-image: linear-gradient(transparent, transparent 10px, rgba(220,220,50,0.9) 10px, rgba(220,220,50,0.9));
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -1237,7 +1243,7 @@ article .content .caption {
   content: "#";
 }
 .article-category .category-link {
-  background-image: linear-gradient(transparent, transparent 10px, #d480aa 10px, #d480aa);
+  background-image: linear-gradient(transparent, transparent 10px, rgba(220,220,50,0.9) 10px, rgba(220,220,50,0.9));
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -1268,7 +1274,7 @@ article .content .caption {
   margin-right: 16px;
   min-width: 100px;
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
 }
 @media (min-width: 480px) {
   #archive .post-list .post-item {
@@ -1381,7 +1387,7 @@ article .content .caption {
   -moz-border-radius: 5px;
 }
 .search-input:focus {
-  border: solid 1px #2bbc8a;
+  border: solid 1px rgba(40,180,150,0.8);
 }
 #search-result ul.search-result-list {
   padding: 0;
@@ -1405,8 +1411,8 @@ article .content .caption {
   font-size: 0.8em;
 }
 #search-result em.search-keyword {
-  border-bottom: 1px dashed #d480aa;
-  color: #d480aa;
+  border-bottom: 1px dashed rgba(220,220,50,0.9);
+  color: rgba(220,220,50,0.9);
   font-weight: bold;
 }
 .search-no-result {
@@ -1615,16 +1621,18 @@ pre code {
 }
 code {
   padding: 0 5px;
-  border: 1px dotted #666;
+  border: none;
   border-radius: 2px;
   -webkit-border-radius: 2px;
+  font-family: "Consolas", "Source Han Sans", monospace;
+  background: #f7f7f7;
 }
 .highlight {
   overflow-x: auto;
   margin: 1rem 0;
   padding: 10px 15px;
   border-radius: 4px;
-  background: #fafafa;
+  background: #f7f7f7;
   font-family: "Consolas", "Source Han Sans", monospace;
   -webkit-border-radius: 4px;
 }
@@ -1639,7 +1647,7 @@ code {
   color: #757575;
   font-style: italic;
   font-size: 0.8em;
-  background-image: linear-gradient(transparent, transparent 10px, #d480aa 10px, #d480aa);
+  background-image: linear-gradient(transparent, transparent 10px, rgba(220,220,50,0.9) 10px, rgba(220,220,50,0.9));
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
@@ -1665,7 +1673,7 @@ code {
   transition: opacity 0.2s ease-in;
 }
 .highlight .btn-copy:hover {
-  color: #2bbc8a;
+  color: rgba(40,180,150,0.8);
 }
 .highlight pre {
   margin: 0;

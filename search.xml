@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>新的开始</title>
+      <link href="/2025/01/23/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
+      <url>/2025/01/23/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h1><h2 id="AMOUR-ET-LIBERTE"><a href="#AMOUR-ET-LIBERTE" class="headerlink" title="AMOUR ET LIBERTE"></a>AMOUR ET LIBERTE</h2><p>Vehicle.</p><h1 id="Lev1"><a href="#Lev1" class="headerlink" title="Lev1"></a>Lev1</h1><h2 id="Lev2"><a href="#Lev2" class="headerlink" title="Lev2"></a>Lev2</h2><h3 id="Lev3"><a href="#Lev3" class="headerlink" title="Lev3"></a>Lev3</h3><h4 id="Lev4"><a href="#Lev4" class="headerlink" title="Lev4"></a>Lev4</h4><p>content</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">linux&gt; code here</span><br></pre></td></tr></table></figure><p><strong>bold</strong>and<em>italic</em></p><h1 id="Another-lev1"><a href="#Another-lev1" class="headerlink" title="Another lev1"></a>Another lev1</h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>real-first-blog</title>
       <link href="/2025/01/20/real-first-blog/"/>
       <url>/2025/01/20/real-first-blog/</url>
       
-        <content type="html"><![CDATA[<h1 id="Test"><a href="#Test" class="headerlink" title="Test"></a>Test</h1><h2 id="AMOUR-ET-LIBERTE"><a href="#AMOUR-ET-LIBERTE" class="headerlink" title="AMOUR ET LIBERTE"></a>AMOUR ET LIBERTE</h2><p>Vehicle.</p><h1 id="Lev1"><a href="#Lev1" class="headerlink" title="Lev1"></a>Lev1</h1><h2 id="Lev2"><a href="#Lev2" class="headerlink" title="Lev2"></a>Lev2</h2><h3 id="Lev3"><a href="#Lev3" class="headerlink" title="Lev3"></a>Lev3</h3><h4 id="Lev4"><a href="#Lev4" class="headerlink" title="Lev4"></a>Lev4</h4><p>content</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">linux&gt; code here</span><br></pre></td></tr></table></figure><p><strong>bold</strong>and<em>italic</em></p><h1 id="Another-lev1"><a href="#Another-lev1" class="headerlink" title="Another lev1"></a>Another lev1</h1>]]></content>
+        <content type="html"><![CDATA[<h2 id="AMOUR-ET-LIBERTE"><a href="#AMOUR-ET-LIBERTE" class="headerlink" title="AMOUR ET LIBERTE"></a>AMOUR ET LIBERTE</h2><p>Vehicle.</p><h1 id="Lev1"><a href="#Lev1" class="headerlink" title="Lev1"></a>Lev1</h1><h2 id="Lev2"><a href="#Lev2" class="headerlink" title="Lev2"></a>Lev2</h2><h3 id="Lev3"><a href="#Lev3" class="headerlink" title="Lev3"></a>Lev3</h3><h4 id="Lev4"><a href="#Lev4" class="headerlink" title="Lev4"></a>Lev4</h4><p>content</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">linux&gt; code here</span><br></pre></td></tr></table></figure><p><strong>bold</strong>and<em>italic</em></p><h1 id="Another-lev1"><a href="#Another-lev1" class="headerlink" title="Another lev1"></a>Another lev1</h1><p>$\frac{1}{2}$<br>test form:</p><table><thead><tr><th>test</th><th>moon</th><th>luna</th></tr></thead><tbody><tr><td>teeeeeeeeeeeeeeest</td><td>phase</td><td>space</td></tr><tr><td>further</td><td>1</td><td>1</td></tr></tbody></table><p>this is a piece of <code>inline code</code></p><ol><li>some content</li><li>another numbered line</li><li>final one<br>no more</li></ol><blockquote><p>blockquote<br>continues<br>moonphase</p></blockquote><p>end of quote</p>]]></content>
       
       
       
