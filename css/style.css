@@ -622,7 +622,7 @@ body {
   font-weight: 1200;
   font-style: normal;
   font-size: 3rem;
-  line-height: 4rem;
+  line-height: 5rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -643,10 +643,10 @@ body {
 }
 #header #nav {
   color: #2bbc8a;
-  letter-spacing: 0.01em;
-  font-weight: 300;
+  letter-spacing: 0.02em;
+  font-weight: 400;
   font-style: normal;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 #header #nav ul {
   margin: 0;
