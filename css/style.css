@@ -460,11 +460,6 @@ body td {
 }
 @font-face {
   font-style: normal;
-  font-family: "MSYH";
-  src: url("../lib/msyh/msyh.ttc") format("truetype");
-}
-@font-face {
-  font-style: normal;
   font-family: "Source Han Sans";
   src: url("../lib/source-han-sans/SourceHanSansCN-Regular.otf") format("opentype");
 }
