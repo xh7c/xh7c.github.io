@@ -805,7 +805,7 @@ body {
 #header-post #nav {
   color: rgba(40,180,150,0.8);
   letter-spacing: 0.01em;
-  font-weight: 200;
+  font-weight: bold;
   font-style: normal;
   font-size: 1rem;
 }
@@ -875,6 +875,7 @@ body {
 #header-post #toc .toc-level-2 {
   color: #383838;
   font-size: 1rem;
+  font-weight: bold;
 }
 #header-post #toc .toc-level-2:before {
   color: rgba(40,180,150,0.8);
@@ -883,10 +884,12 @@ body {
 #header-post #toc .toc-level-3 {
   color: #666;
   font-size: 0.9rem;
+  font-weight: bold;
 }
 #header-post #toc .toc-level-4 {
-  color: #525252;
-  font-size: 0.7rem;
+  color: #666;
+  font-size: 0.8rem;
+  font-weight: normal;
 }
 #header-post #toc .toc-level-5 {
   display: none;
@@ -1142,7 +1145,7 @@ article header .postdate {
 }
 article .content h2:before {
   position: absolute;
-  top: 0px;
+  top: -2px;
   left: -2rem;
   color: rgba(40,180,150,0.8);
   content: ">";
